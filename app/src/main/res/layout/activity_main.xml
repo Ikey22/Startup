@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/colorPrimary">
+    android:padding="10dp">
 
 
     <Button
@@ -18,4 +18,21 @@
         android:layout_marginTop="89dp"
         android:layout_marginEnd="63dp"
         android:text="Show toast" />
+
+    <EditText
+        android:id="@+id/etUserMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+       android:hint="Enter your message"/>
+
+    <Button
+        android:id="@+id/btnSendMsgToNextActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Send data to next activity" />
 </RelativeLayout>
